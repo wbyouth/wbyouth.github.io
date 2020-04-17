@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://benyuw.com</id>
     <title>牧数南山下</title>
-    <updated>2020-04-17T08:37:50.305Z</updated>
+    <updated>2020-04-17T08:45:39.367Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://benyuw.com"/>
     <link rel="self" href="http://benyuw.com/atom.xml"/>
@@ -10,4 +10,17 @@
     <logo>http://benyuw.com/images/avatar.png</logo>
     <icon>http://benyuw.com/favicon.ico</icon>
     <rights>All rights reserved 2020, 牧数南山下</rights>
+    <entry>
+        <title type="html"><![CDATA[不要放弃写作]]></title>
+        <id>http://benyuw.com/post/bu-yao-fang-qi-xie-zuo/</id>
+        <link href="http://benyuw.com/post/bu-yao-fang-qi-xie-zuo/">
+        </link>
+        <updated>2020-04-17T08:38:43.000Z</updated>
+        <content type="html"><![CDATA[<p>占位置</p>
+<p>如果你想快速设计一个Logo给项目、博客啥的，可以试一下下面这个网站：<br>
+https://logomakr.com/</p>
+<p>Benyu<br>
+4/17/2020</p>
+]]></content>
+    </entry>
 </feed>
