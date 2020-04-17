@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://benyuw.com</id>
     <title>牧数南山下</title>
-    <updated>2020-04-17T08:45:39.367Z</updated>
+    <updated>2020-04-17T08:48:02.251Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://benyuw.com"/>
     <link rel="self" href="http://benyuw.com/atom.xml"/>
-    <subtitle>牧数南山下，信噪比太低</subtitle>
+    <subtitle>牧数南山下，信噪比太低，晨兴理荒秽，带月荷锄归...</subtitle>
     <logo>http://benyuw.com/images/avatar.png</logo>
     <icon>http://benyuw.com/favicon.ico</icon>
     <rights>All rights reserved 2020, 牧数南山下</rights>
