@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://benyuw.com</id>
     <title>牧数南山下</title>
-    <updated>2020-04-20T18:40:19.307Z</updated>
+    <updated>2020-04-20T18:40:58.295Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://benyuw.com"/>
     <link rel="self" href="http://benyuw.com/atom.xml"/>
@@ -62,17 +62,17 @@
 <ul>
 <li>独立域名</li>
 <li>Github Pages</li>
-<li>Girdea<br>
-后续希望能把访问速度、图片打开速度搞起来。</li>
+<li>Girdea</li>
 </ul>
+<p>后续希望能把访问速度、图片打开速度搞起来。</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>经常拿“公欲利其事，必先利其器”来给自己懒得写作找理由，这次也是挑了很久写作的平台，还做了网址的备案，终于有个满足最低要求的写作平台了，希望能坚持下去，养成好习惯。</p>
 <ul>
 <li>独立域名</li>
 <li>Github Pages</li>
-<li>Girdea<br>
-后续希望能把访问速度、图片打开速度搞起来。</li>
+<li>Girdea</li>
 </ul>
+<p>后续希望能把访问速度、图片打开速度搞起来。</p>
 ]]></content>
     </entry>
 </feed>
