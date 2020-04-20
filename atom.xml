@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://benyuw.com</id>
     <title>牧数南山下</title>
-    <updated>2020-04-20T10:04:08.230Z</updated>
+    <updated>2020-04-20T10:05:35.714Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://benyuw.com"/>
     <link rel="self" href="http://benyuw.com/atom.xml"/>
@@ -59,7 +59,7 @@
         </link>
         <updated>2020-04-17T09:58:23.000Z</updated>
         <content type="html"><![CDATA[<h3 id="目录">目录</h3>
-<h4 id="前言"><a href="http://benyuw.com/qian-yan'">前言</a></h4>
+<h4 id="前言"><a href="http://benyuw.com/qian-yan">前言</a></h4>
 <h4 id="1-需求预测概述">1. 需求预测概述</h4>
 <h5 id="11-什么时候你需要预测">1.1 什么时候你需要预测</h5>
 <h5 id="12-需求预测的类型">1.2 需求预测的类型</h5>
