@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://benyuw.com</id>
     <title>牧数南山下</title>
-    <updated>2020-04-20T10:08:12.926Z</updated>
+    <updated>2020-04-20T10:12:47.661Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://benyuw.com"/>
     <link rel="self" href="http://benyuw.com/atom.xml"/>
@@ -16,7 +16,10 @@
         <link href="http://benyuw.com/post/qian-yan/">
         </link>
         <updated>2020-04-20T09:57:54.000Z</updated>
+        <summary type="html"><![CDATA[<p>要说物流&amp;供应链行业里做算法，什么是最稳定或者基石的需求，需求预测一定是其中当仁不让的那个，所谓遇事不决问预测。但同时这个又是易于上手，难于精通的行当。搭个能用的预测半天都不要，但能打通预测与决策的鸿沟需要反复推演，精心设计。</p>
+]]></summary>
         <content type="html"><![CDATA[<p>要说物流&amp;供应链行业里做算法，什么是最稳定或者基石的需求，需求预测一定是其中当仁不让的那个，所谓遇事不决问预测。但同时这个又是易于上手，难于精通的行当。搭个能用的预测半天都不要，但能打通预测与决策的鸿沟需要反复推演，精心设计。</p>
+<!-- more -->
 <p>我正式在业界做需求预测还要追溯到16年的时候，那时候机器学习在国内还是蓝海，特别是物流行业。那时候从0开始做，从</p>
 <p>写作的原则：1. 尽量少用公式，多画图表；2. 涉及算法均为公开文献，业界实践中一般都会加以改动，改动的地方只会评论方向，不涉及具体操作。</p>
 <p>更新的频率：争取做到一周一篇，把一个小节的问题讲清楚。</p>
@@ -59,7 +62,7 @@
         </link>
         <updated>2020-04-17T09:58:23.000Z</updated>
         <content type="html"><![CDATA[<h3 id="目录">目录</h3>
-<h4 id="前言"><a href="http://benyuw.com/qian-yan">前言</a></h4>
+<h4 id="前言"><a href="http://benyuw.com/post/qian-yan">前言</a></h4>
 <h4 id="1-需求预测概述">1. 需求预测概述</h4>
 <h5 id="11-什么时候你需要预测">1.1 什么时候你需要预测</h5>
 <h5 id="12-需求预测的类型">1.2 需求预测的类型</h5>
