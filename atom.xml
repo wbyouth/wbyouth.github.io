@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://benyuw.com</id>
     <title>牧数南山下</title>
-    <updated>2020-04-20T10:36:04.205Z</updated>
+    <updated>2020-04-20T18:19:00.249Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://benyuw.com"/>
     <link rel="self" href="http://benyuw.com/atom.xml"/>
@@ -11,17 +11,6 @@
     <icon>http://benyuw.com/favicon.ico</icon>
     <rights>All rights reserved 2020, 牧数南山下</rights>
     <entry>
-        <title type="html"><![CDATA[前言]]></title>
-        <id>http://benyuw.com/post/qian-yan/</id>
-        <link href="http://benyuw.com/post/qian-yan/">
-        </link>
-        <updated>2020-04-20T09:57:54.000Z</updated>
-        <summary type="html"><![CDATA[<p>要说物流&amp;供应链行业里做算法，什么是最稳定或者基石的需求，需求预测一定是其中当仁不让的那个，所谓遇事不决问预测。但同时这个又是易于上手，难于精通的行当。搭个能用的预测半天都不要，但能打通预测与决策的鸿沟需要反复推演，精心设计。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>要说物流&amp;供应链行业里做算法，什么是最稳定或者基石的需求，需求预测一定是其中当仁不让的那个，所谓遇事不决问预测。但同时这个又是易于上手，难于精通的行当。搭个能用的预测半天都不要，但能打通预测与决策的鸿沟需要反复推演，精心设计。</p>
-]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[供应链算法实践]]></title>
         <id>http://benyuw.com/post/gong-ying-lian-suan-fa-shi-jian/</id>
         <link href="http://benyuw.com/post/gong-ying-lian-suan-fa-shi-jian/">
@@ -29,11 +18,27 @@
         <updated>2020-04-20T09:55:06.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[需求预测那些事儿]]></title>
+        <title type="html"><![CDATA[需求预测算法实践]]></title>
         <id>http://benyuw.com/post/xu-qiu-yu-ce-na-xie-shi-er/</id>
         <link href="http://benyuw.com/post/xu-qiu-yu-ce-na-xie-shi-er/">
         </link>
         <updated>2020-04-17T09:58:23.000Z</updated>
+        <summary type="html"><![CDATA[<h3 id="目录">目录</h3>
+<h4 id="前言"><a href="http://benyuw.com/post/qian-yan">前言</a></h4>
+<h4 id="1-需求预测概述">1. 需求预测概述</h4>
+<h5 id="11-什么时候你需要预测">1.1 什么时候你需要预测</h5>
+<h5 id="12-需求预测的类型">1.2 需求预测的类型</h5>
+<h5 id="13-需求预测的输入与输出">1.3 需求预测的输入与输出</h5>
+<h5 id="14-如何选择适合你的需求预测方法">1.4 如何选择适合你的需求预测方法</h5>
+]]></summary>
+        <content type="html"><![CDATA[<h3 id="目录">目录</h3>
+<h4 id="前言"><a href="http://benyuw.com/post/qian-yan">前言</a></h4>
+<h4 id="1-需求预测概述">1. 需求预测概述</h4>
+<h5 id="11-什么时候你需要预测">1.1 什么时候你需要预测</h5>
+<h5 id="12-需求预测的类型">1.2 需求预测的类型</h5>
+<h5 id="13-需求预测的输入与输出">1.3 需求预测的输入与输出</h5>
+<h5 id="14-如何选择适合你的需求预测方法">1.4 如何选择适合你的需求预测方法</h5>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[不要放弃写作]]></title>
