@@ -2,22 +2,31 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>不要放弃写作 | 牧数南山下</title>
+<title>供应链算法实践 | 牧数南山下</title>
 <link rel="shortcut icon" href="http://benyuw.com/favicon.ico?v=1587376990653">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="http://benyuw.com/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="不要放弃写作 | 牧数南山下 - Atom Feed" href="http://benyuw.com/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="供应链算法实践 | 牧数南山下 - Atom Feed" href="http://benyuw.com/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="占位置
-如果你想快速设计一个Logo给项目、博客啥的，可以试一下下面这个网站：
-https://logomakr.com/
-Benyu
-4/17/2020
-" />
-    <meta name="keywords" content="" />
+    <meta name="description" content="目录
+1. 需求预测
+2. 仓网规划
+3. 线路规划
+4. 库存优化
+4.1 需求分析
+4.2 库存分析
+4.3 安全库存优化
+4.4 自动补货
+4.5 库存分配
+4.6 仿真模拟
+4.7 仓库选品
+5. 仓内优化
+5.1 需求预测
+5.2..." />
+    <meta name="keywords" content="供应链,预测" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
@@ -87,34 +96,106 @@ Benyu
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              不要放弃写作
+              供应链算法实践
             </h2>
             <div class="post-info">
               <span>
-                2020-04-17
+                2020-04-20
               </span>
               <span>
                 1 min read
               </span>
               
+                <a href="http://benyuw.com/tag/9VQ33rmIO/" class="post-tag">
+                  # 供应链
+                </a>
+              
+                <a href="http://benyuw.com/tag/Pd6sJRIDd/" class="post-tag">
+                  # 预测
+                </a>
+              
             </div>
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>占位置</p>
-<p>如果你想快速设计一个Logo给项目、博客啥的，可以试一下下面这个网站：<br>
-https://logomakr.com/</p>
-<p>Benyu<br>
-4/17/2020</p>
+                <h4 id="目录">目录</h4>
+<h4 id="1-需求预测">1. 需求预测</h4>
+<h4 id="2-仓网规划">2. 仓网规划</h4>
+<h4 id="3-线路规划">3. 线路规划</h4>
+<h4 id="4-库存优化">4. 库存优化</h4>
+<h5 id="41-需求分析">4.1 需求分析</h5>
+<h5 id="42-库存分析">4.2 库存分析</h5>
+<h5 id="43-安全库存优化">4.3 安全库存优化</h5>
+<h5 id="44-自动补货">4.4 自动补货</h5>
+<h5 id="45-库存分配">4.5 库存分配</h5>
+<h5 id="46-仿真模拟">4.6 仿真模拟</h5>
+<h5 id="47-仓库选品">4.7 仓库选品</h5>
+<h4 id="5-仓内优化">5. 仓内优化</h4>
+<h5 id="51-需求预测">5.1 需求预测</h5>
+<h5 id="52-仓内补货">5.2 仓内补货</h5>
+<h5 id="53-库位优化">5.3 库位优化</h5>
+<h5 id="54-路径优化">5.4 路径优化</h5>
+<h5 id="55-波次优化">5.5 波次优化</h5>
+<h5 id="56-箱型推荐">5.6 箱型推荐</h5>
+<h4 id="6-供应链仿真">6. 供应链仿真</h4>
 
               </div>
               <div class="toc-container">
-                
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#%E7%9B%AE%E5%BD%95">目录</a></li>
+<li><a href="#1-%E9%9C%80%E6%B1%82%E9%A2%84%E6%B5%8B">1. 需求预测</a></li>
+<li><a href="#2-%E4%BB%93%E7%BD%91%E8%A7%84%E5%88%92">2. 仓网规划</a></li>
+<li><a href="#3-%E7%BA%BF%E8%B7%AF%E8%A7%84%E5%88%92">3. 线路规划</a></li>
+<li><a href="#4-%E5%BA%93%E5%AD%98%E4%BC%98%E5%8C%96">4. 库存优化</a>
+<ul>
+<li><a href="#41-%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90">4.1 需求分析</a></li>
+<li><a href="#42-%E5%BA%93%E5%AD%98%E5%88%86%E6%9E%90">4.2 库存分析</a></li>
+<li><a href="#43-%E5%AE%89%E5%85%A8%E5%BA%93%E5%AD%98%E4%BC%98%E5%8C%96">4.3 安全库存优化</a></li>
+<li><a href="#44-%E8%87%AA%E5%8A%A8%E8%A1%A5%E8%B4%A7">4.4 自动补货</a></li>
+<li><a href="#45-%E5%BA%93%E5%AD%98%E5%88%86%E9%85%8D">4.5 库存分配</a></li>
+<li><a href="#46-%E4%BB%BF%E7%9C%9F%E6%A8%A1%E6%8B%9F">4.6 仿真模拟</a></li>
+<li><a href="#47-%E4%BB%93%E5%BA%93%E9%80%89%E5%93%81">4.7 仓库选品</a></li>
+</ul>
+</li>
+<li><a href="#5-%E4%BB%93%E5%86%85%E4%BC%98%E5%8C%96">5. 仓内优化</a>
+<ul>
+<li><a href="#51-%E9%9C%80%E6%B1%82%E9%A2%84%E6%B5%8B">5.1 需求预测</a></li>
+<li><a href="#52-%E4%BB%93%E5%86%85%E8%A1%A5%E8%B4%A7">5.2 仓内补货</a></li>
+<li><a href="#53-%E5%BA%93%E4%BD%8D%E4%BC%98%E5%8C%96">5.3 库位优化</a></li>
+<li><a href="#54-%E8%B7%AF%E5%BE%84%E4%BC%98%E5%8C%96">5.4 路径优化</a></li>
+<li><a href="#55-%E6%B3%A2%E6%AC%A1%E4%BC%98%E5%8C%96">5.5 波次优化</a></li>
+<li><a href="#56-%E7%AE%B1%E5%9E%8B%E6%8E%A8%E8%8D%90">5.6 箱型推荐</a></li>
+</ul>
+</li>
+<li><a href="#6-%E4%BE%9B%E5%BA%94%E9%93%BE%E4%BB%BF%E7%9C%9F">6. 供应链仿真</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
               </div>
             </div>
           </article>
         </div>
 
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="http://benyuw.com/post/xu-qiu-yu-ce-na-xie-shi-er/">
+              <h3 class="post-title">
+                需求预测那些事儿
+              </h3>
+            </a>
+          </div>
         
 
         

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://benyuw.com</id>
     <title>牧数南山下</title>
-    <updated>2020-04-17T10:13:13.869Z</updated>
+    <updated>2020-04-20T10:03:25.802Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://benyuw.com"/>
     <link rel="self" href="http://benyuw.com/atom.xml"/>
@@ -11,13 +11,55 @@
     <icon>http://benyuw.com/favicon.ico</icon>
     <rights>All rights reserved 2020, 牧数南山下</rights>
     <entry>
+        <title type="html"><![CDATA[前言]]></title>
+        <id>http://benyuw.com/post/qian-yan/</id>
+        <link href="http://benyuw.com/post/qian-yan/">
+        </link>
+        <updated>2020-04-20T09:57:54.000Z</updated>
+        <content type="html"><![CDATA[<p>要说物流&amp;供应链行业里做算法，什么是最稳定或者基石的需求，需求预测一定是其中当仁不让的那个，所谓遇事不决问预测。但同时这个又是易于上手，难于精通的行当。搭个能用的预测半天都不要，但能打通预测与决策的鸿沟需要反复推演，精心设计。</p>
+<p>我正式在业界做需求预测还要追溯到16年的时候，那时候机器学习在国内还是蓝海，特别是物流行业。那时候从0开始做，从</p>
+<p>写作的原则：1. 尽量少用公式，多画图表；2. 涉及算法均为公开文献，业界实践中一般都会加以改动，改动的地方只会评论方向，不涉及具体操作。</p>
+<p>更新的频率：争取做到一周一篇，把一个小节的问题讲清楚。</p>
+<p>欢迎讨论，留言或邮箱（benyuw@foxmail.com），有信必回。</p>
+<p>Benyu</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[供应链算法实践]]></title>
+        <id>http://benyuw.com/post/gong-ying-lian-suan-fa-shi-jian/</id>
+        <link href="http://benyuw.com/post/gong-ying-lian-suan-fa-shi-jian/">
+        </link>
+        <updated>2020-04-20T09:55:06.000Z</updated>
+        <content type="html"><![CDATA[<h4 id="目录">目录</h4>
+<h4 id="1-需求预测">1. 需求预测</h4>
+<h4 id="2-仓网规划">2. 仓网规划</h4>
+<h4 id="3-线路规划">3. 线路规划</h4>
+<h4 id="4-库存优化">4. 库存优化</h4>
+<h5 id="41-需求分析">4.1 需求分析</h5>
+<h5 id="42-库存分析">4.2 库存分析</h5>
+<h5 id="43-安全库存优化">4.3 安全库存优化</h5>
+<h5 id="44-自动补货">4.4 自动补货</h5>
+<h5 id="45-库存分配">4.5 库存分配</h5>
+<h5 id="46-仿真模拟">4.6 仿真模拟</h5>
+<h5 id="47-仓库选品">4.7 仓库选品</h5>
+<h4 id="5-仓内优化">5. 仓内优化</h4>
+<h5 id="51-需求预测">5.1 需求预测</h5>
+<h5 id="52-仓内补货">5.2 仓内补货</h5>
+<h5 id="53-库位优化">5.3 库位优化</h5>
+<h5 id="54-路径优化">5.4 路径优化</h5>
+<h5 id="55-波次优化">5.5 波次优化</h5>
+<h5 id="56-箱型推荐">5.6 箱型推荐</h5>
+<h4 id="6-供应链仿真">6. 供应链仿真</h4>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[需求预测那些事儿]]></title>
         <id>http://benyuw.com/post/xu-qiu-yu-ce-na-xie-shi-er/</id>
         <link href="http://benyuw.com/post/xu-qiu-yu-ce-na-xie-shi-er/">
         </link>
         <updated>2020-04-17T09:58:23.000Z</updated>
         <content type="html"><![CDATA[<h3 id="目录">目录</h3>
-<h4 id="前言">前言</h4>
+<h4 id="前言"><a href="http://benyuw.com/qian-yan'">前言</a></h4>
 <h4 id="1-需求预测概述">1. 需求预测概述</h4>
 <h5 id="11-什么时候你需要预测">1.1 什么时候你需要预测</h5>
 <h5 id="12-需求预测的类型">1.2 需求预测的类型</h5>
